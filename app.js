@@ -159,11 +159,11 @@
 // off to 2 decimal places. Display the following fields: a. Customer Name b.
 
 //answer:
-// let name = "Sahar Shahid"
+// let CustomerName = "Sahar Shahid"
 // let currentDate = new Date()
-// let MonthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+// let monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
 //     "October", "November", "December"];
-// let currentMonth = MonthNames(currentDate.getMonth())
+// let currentMonth = monthNames[currentDate.getMonth()]
 // let unitconsumed = 350;
 // let chargesPerUnit = 20;
 // let netAmount = unitconsumed * chargesPerUnit
@@ -174,12 +174,15 @@
 // grossAmount = grossAmount.toFixed(2);
 
 // document.write("<h2>K-Electric Bill</h2>");
-// document.write("<p><b>Customer Name:</b> " + customerName + "</p>");
+// document.write("<p><b>Customer Name:</b> " + CustomerName+ "</p>");
 // document.write("<p><b>Current Month:</b> " + currentMonth + "</p>");
 // document.write("<p><b>Units Consumed:</b> " + unitconsumed + "</p>");
 // document.write("<p><b>Charges per Unit:</b> Rs. " + chargesPerUnit + "</p>");
 // document.write("<p><b>Net Amount Payable (Before Due Date):</b> Rs. " + netAmount + "</p>");
 // document.write("<p><b>Late Payment Surcharge:</b> Rs. " + latePaymentSurcharge + "</p>");
 // document.write("<p><b>Gross Amount Payable (After Due Date):</b> Rs. " + grossAmount + "</p>");
+
+
+
 
 
